@@ -1,0 +1,41 @@
+oid_section = my_oids
+[my_oids]
+tsa_policy1 =1.3.6.1.4.1.311.20.2
+
+[ req ]
+default_bits	=     2048
+emailAddress 	=     bilaljmal@gmail.com
+req_extensions    =   v3_req
+x509_extensions	=     v3_ca	# The extensions to add to the self signed cert
+prompt =     no
+default_md        =     sha256
+req_extensions    =     req_ext
+distinguished_name = dn
+
+
+
+[ dn ]
+C=SA
+O=The diamond age for information technology
+OU=Sales
+CN=THE-1010670823-300813223100003
+
+[ req_ext ]
+
+1.3.6.1.4.1.311.20.2 =ASN1:PRINTABLESTRING:ZATCA-Code-Signing
+subjectAltName = dirName:alt_names
+
+[ v3_req ]
+
+# Extensions to add to a certificate request
+
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment
+
+
+[ alt_names ]
+SN=1-mkriyada|2- version 2.0 |3-547c9514-e911-4a95-9f69-62df99716068
+UID=300813223100003
+title=0100
+registeredAddress=
+businessCategory=Wholesale

@@ -1,0 +1,237 @@
+[
+  {
+    "model": "api.country",
+    "pk": "b8321e40-9f25-40b4-a8d2-e51197dd87c2",
+    "fields": {
+      "name": "Saudi Arabia",
+      "short_name": "SA",
+      "country_code": "+966",
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.country",
+    "pk": "c47c9ae0-fc9d-46de-8855-539a2b0c93b5",
+    "fields": {
+      "name": "United Arab Emirates",
+      "short_name": "AE",
+      "country_code": "+971",
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.country",
+    "pk": "8e1b3e9f-02a4-4af7-90e2-df4736e9a3f1",
+    "fields": {
+      "name": "Oman",
+      "short_name": "OM",
+      "country_code": "+968",
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.country",
+    "pk": "d36e9a4e-7b1b-41b8-97f8-fcb933f98c56",
+    "fields": {
+      "name": "Qatar",
+      "short_name": "QA",
+      "country_code": "+974",
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.country",
+    "pk": "2ab56e1f-98b3-4a2b-9a7f-24a27a2ed4d3",
+    "fields": {
+      "name": "Kuwait",
+      "short_name": "KW",
+      "country_code": "+965",
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.country",
+    "pk": "90db56c2-cb6f-41e2-bd9f-3a7cf5c4b282",
+    "fields": {
+      "name": "Bahrain",
+      "short_name": "BH",
+      "country_code": "+973",
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.country",
+    "pk": "7bfc68d4-5d3a-4e64-b2ab-b9c6df939e02",
+    "fields": {
+      "name": "Egypt",
+      "short_name": "EG",
+      "country_code": "+20",
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.rolegroup",
+    "pk": 1,
+    "fields": {
+      "group_name": "Owner",
+      "group_code": "6f74b28b-1c64-40d2-9ca8-7a61d488826b",
+      "company": null,
+      "visible": false,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.rolegroup",
+    "pk": 2,
+    "fields": {
+      "group_name": "Setup",
+      "group_code": "9f321cd6-45cb-4888-a697-eb6e60cfba2b",
+      "company": null,
+      "visible": false,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.rolegroup",
+    "pk": 3,
+    "fields": {
+      "group_name": "Signup",
+      "group_code": "2f698634-6618-4f84-a64f-9a70c2d4c1e7",
+      "company": null,
+      "visible": false,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.rolegroup",
+    "pk": 4,
+    "fields": {
+      "group_name": "Customer",
+      "group_code": "e856ec18-2ca6-4d88-9470-68dd974f474b",
+      "company": null,
+      "visible": true,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.rolegroup",
+    "pk": 5,
+    "fields": {
+      "group_name": "Salesman",
+      "group_code": "45e56456-1275-40e3-a423-74e89d47e224",
+      "company": null,
+      "visible": true,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.rolegroup",
+    "pk": 6,
+    "fields": {
+      "group_name": "Accountant",
+      "group_code": "eb7ec458-3fb5-466e-8238-f28e6f24eb75",
+      "company": null,
+      "visible": true,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.subscriptionplan",
+    "pk": "b8321e40-9f25-40b4-a8d2-e51197dd87b2",
+    "fields": {
+      "name": "Free",
+      "default": true,
+      "price": "1",
+      "sale_price": "1",
+      "number_of_users": "5",
+      "invoice_limit": "5",
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.paymentterms",
+    "pk": 1,
+    "fields": {
+      "code": "CASH",
+      "description": "Payment due immediately upon purchase.",
+      "due_days": 0,
+      "is_active": true,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.paymentterms",
+    "pk": 2,
+    "fields": {
+      "code": "30 Day",
+      "description": "Payment due within 15 days from invoice date.",
+      "due_days": 15,
+      "is_active": true,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.paymentterms",
+    "pk": 3,
+    "fields": {
+      "code": "45 Day",
+      "description": "Payment due within 30 days from invoice date.",
+      "due_days": 30,
+      "is_active": true,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.paymentterms",
+    "pk": 4,
+    "fields": {
+      "code": "60 Day",
+      "description": "Payment due within 45 days from invoice date.",
+      "due_days": 45,
+      "is_active": true,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.paymentterms",
+    "pk": 5,
+    "fields": {
+      "code": "90 Day",
+      "description": "Payment due within 60 days from invoice date.",
+      "due_days": 60,
+      "is_active": true,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.paymentterms",
+    "pk": 6,
+    "fields": {
+      "code": "120 Day",
+      "description": "Cash on delivery — payment due at the time of delivery.",
+      "due_days": 0,
+      "is_active": true,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  }
+]
